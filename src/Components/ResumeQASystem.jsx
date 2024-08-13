@@ -26,7 +26,7 @@ const ResumeQASystem = () => {
         formData.append('questions', questions);
 
         try {
-            const response = await axios.post('http://localhost:5000/process', formData, {
+            const response = await axios.post('https://plswork9000-e11945a9e930.herokuapp.com/process', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
             });
             setAnswers(response.data);

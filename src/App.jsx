@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumeQASystem from './components/ResumeQASystem'
+import ResumeQASystem from './Components/ResumeQASystem'
 
 function App() {
     return (

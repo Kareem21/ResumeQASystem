@@ -31,7 +31,7 @@ const ResumeQASystem = () => {
             });
             setAnswers(response.data);
         } catch (error) {
-            console.error('Error:', error);
+            console.error('Error HERE:', error);
             alert('An error occurred while processing your request');
         } finally {
             setIsLoading(false);
